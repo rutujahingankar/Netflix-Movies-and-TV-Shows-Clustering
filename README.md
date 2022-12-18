@@ -16,11 +16,11 @@ Clusters were built on the attributes: Director, Cast, Country, Rating, Listed i
 Steps involved in preprosessing:Tokenize the corpus, Remove non-ascii characters, Convert all words to lowercase, Remove punctuation marks, Replace all numbers with its respective textual representation, Stemming and Lemmatization
 Text corpus was vectorized using TFIDF vectorizer, and 20000 attributes were generated.
 More than 80% of the variance is explained just by 4000 components. Hence to handle the curse of dimensionality, only the top 4000 components were taken, which will still be able to capture more than 80% of variance in the data.
-3.1. K Means Clustering:
+* 3.1. K Means Clustering:
 The optimal number of clusters were built after visualizing the elbow curve and the Silhouette score.
 Highest Silhouette score is obtained for 6 clusters using k-means clustering. Hence, the number of clusters for k-means clustering was taken as 6.
 Silhouette score at 6 clusters: 0.0082
-3.2. Hierarchical Clustering:
+* 3.2. Hierarchical Clustering:
 Clusters were built using the Agglomerative clustering algorithm, and the optimal number of clusters were built after visualizing the dendogram.
 From the dendogram, at an Euclidean distance of 3.8 units, 12 clusters can be built. Hence the number of clusters were taken as 12.
 Algorithm: Agglomerative clustering
