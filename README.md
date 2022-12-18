@@ -26,12 +26,11 @@ From the dendogram, at an Euclidean distance of 3.8 units, 12 clusters can be bu
 Algorithm: Agglomerative clustering
 Distance: Euclidean
 Linkage: Ward
---
 
 4. Content Based Recommender system using Cosine Similarity:
 We can build a simple content based recommender system based on the similarity of the shows.
 If a person has watched a show on Netflix, the recommender system must be able to recommend a list of similar shows that s/he likes. To get the similarity score of the shows, we can use cosine similarity.
 The similarity between two vectors (A and B) is calculated by taking the dot product of the two vectors and dividing it by the magnitude. We can simply say that the CS score of two vectors increases as the angle between them decreases.
 
-Conclusion
+# Conclusion
 In conclusion, tailored recommendations can be made based on information about movies and TV shows. In addition, similar models can be developed to provide valuable recommendations to consumers in other domains. It will solve for improved movie and TV-Show selection times with a considerable growth in satisfaction of the content being consumed leading to more user engagement and greater trust in Netflix recommendations.
