@@ -11,7 +11,7 @@ Drama is the most produced genre in the top non-English speaking countries with 
 It is noted that Comedy was the most produced genre in English-speaking countries like the United States of America, the United Kingdom and Canada. Documentaries are predominantly produced in the United Kingdom and the United States of America
 Duplicates of TV shows were made corresponding to their seasons. Upon doing so, it was observed that the TV shows signed have been higher than the movies in 2016
 Although, the movies signed have been higher than TV shows ever since it was prominent that the TV shows signed per year were catching up to the movies signed annually. Hence, we can conclude that it was true that Netflix had been showing more interest in TV shows as compared to movies
-#  Clustering Summary:
+# 3. Clustering Summary:
 Clusters were built on the attributes: Director, Cast, Country, Rating, Listed in (genres), Description
 Steps involved in preprosessing:Tokenize the corpus, Remove non-ascii characters, Convert all words to lowercase, Remove punctuation marks, Replace all numbers with its respective textual representation, Stemming and Lemmatization
 Text corpus was vectorized using TFIDF vectorizer, and 20000 attributes were generated.
